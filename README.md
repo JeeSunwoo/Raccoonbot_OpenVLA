@@ -91,17 +91,17 @@
 | Cat 4 | 캡처 + pitch | 3 | 20 / 30 | 66.7% |
 | **전체** | | **126** | **1090 / 1260** | **86.5%** |
 
-![success rate](figures/cat_success_rate.png)
+
 <img width="1200" height="750" alt="image" src="https://github.com/user-attachments/assets/260068a0-83f7-48fa-a2b2-c2c3be231de6" />
 
 성공 에피소드의 place error 분포 (카테고리별):
 
-![place error](figures/place_err_boxplot.png)
+
 <img width="1200" height="750" alt="cat_success_rate" src="https://github.com/user-
 시작/목적지 셀별 성공률:
 <img width="1200" height="750" alt="place_err_boxplot" src="https://github.com/user-attachments/assets/ae3f1f9a-1664-4aae-8ef0-b235c72e567e" />
 
-![cell heatmap](figures/scenario_success_rate.png)
+
 <img width="1401" height="730" alt="image" src="https://github.com/user-attachments/assets/cc9d203b-9ad6-4a77-940b-2c93216a1e06" />
 
 ---
