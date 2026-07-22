@@ -135,8 +135,6 @@ torchrun vla-scripts/finetune.py \
 
 Using `chess_eval.py`, each scenario was run in the MuJoCo simulation with the fine-tuned OpenVLA-7B checkpoint.
 
-**Hybrid policy:** Once the VLA model reaches the pick position, a script-based controller executes grasp → lift → sweep → place → release.
-
 Success criteria:
 
 - Place error < 1.8 cm
@@ -158,7 +156,6 @@ The full set of 126 scenarios was rolled out 10 times each, for a total of 1,260
 The overall success rate of 86.5% shows that the pipeline — with the dataset extension and the pitch-IK improvement applied — performs the complex chess task reliably. By category, plain pick-and-place (Cat 1, 90.6%) is highest, while cases that require pitch (Cat 2, 74.5%) or a 2-leg capture (Cat 3, 85.2%) show lower success rates in line with their difficulty. The hardest case, capture + pitch (Cat 4), is 66.7%, reflecting the difficulty of cases that simultaneously require multi-leg sequencing and a top-down grasp.
 
 <p align="center">
-  <img src="report_fig1.png" width="560" alt="Success rate by category">
 </p>
 <img width="1200" height="750" alt="cat_success_rate" src="https://github.com/user-attachments/assets/ba198177-1ef2-4277-aa32-4a902bc8c3b8" />
 
